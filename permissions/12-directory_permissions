@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -m my_dir 751 dir_crazy 
+mkdir -m my_dir 755 dir_crazy 
