@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod mkdir -m my_dir 751 dir_crazy 
+mkdir -m 751 my_dir  
