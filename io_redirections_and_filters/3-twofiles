@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd /atc/hosts
+cat /etc/passwd  /atc/hosts
