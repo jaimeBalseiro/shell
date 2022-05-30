@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This will print out from 1-20, 4th line 'bad luch from China', 9th 'bad luck from Japan', 17th 'bad luck from Italy' rest are the numbers
+x=1
+while [ $x -le 20 ]
+do
+   echo "$x"
+   case $x in
+       4)
+         echo "bad luck from China"
+         ;;
+       9)
+         echo "bad luck from Japan"
+         ;;
+       17)
+         echo "bad luck from Italy"
+         ;;
+   esac
+   ((x++))
+done
