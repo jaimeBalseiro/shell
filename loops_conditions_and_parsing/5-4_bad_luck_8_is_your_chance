@@ -1,4 +1,4 @@
-#!/usr?bin/env bash
+#!/usr/bin/env bash
 # Print from 1-10 but in the 4th line 'bad luck', 8th 'good luck', and 'Best School' in the rest
 x=1
 while [ $x -le 10 ]
