@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This will print out info about the school file
+# Checks if file exists and prints whether it does or not
+# also checks if the files are empty and prints wheter it is or not
 file="school"
 if [ -e $file ]
 then
