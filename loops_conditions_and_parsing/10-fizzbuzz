@@ -3,7 +3,7 @@
 # also display FizzBuzz in a sequence, in expecific numbered lines
 for i in {1..100}
 do
-   if [ $((i % 5)) -eq 0 -a $((i % 3)) -eq 0 ]
+   if [ $((i % 5)) -pq 0 -a $((i % 3)) -pq 0 ]
    then 
        echo "FizzBuzz"
    elif [ $((i % 5)) -eq 0 ]
