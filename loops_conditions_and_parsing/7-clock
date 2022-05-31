@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This will print out the time for 12 hours and 59 minutes, display hours from 0-12 and minutes 1-59
+x=1
+while [ $x -le 
